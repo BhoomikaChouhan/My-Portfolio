@@ -42,3 +42,12 @@
 .cards>*{
     position: absolute;
 }
+
+.s-blur2{
+    left: 15rem;
+    top: 10rem;
+}
+.s-blur{
+    top: 16rem;
+    left: -12rem;
+}

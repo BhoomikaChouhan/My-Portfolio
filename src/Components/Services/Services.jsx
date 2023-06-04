@@ -5,6 +5,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png"
 import Card from '../Card/Card';
 
+import Resume from './Resume.pdf'
 const Services = () => {
   return (
     <div className="services">
@@ -16,10 +17,10 @@ const Services = () => {
          <span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio facere quam laborum, 
             <br />
-            ipsum quos reprehenderit harum qui cupiditate repellat nemo fuga porro </span> 
+            ipsum quos reprehenderit harum qui cupiditate repellat nemo fuga porro </span> <a href={Resume} download={Resume}>
             <button className='button s-button' >
-             Download CV </button>  
-            <div className="blur s-blur" style={{background:"#ABF1FF94"}}></div>
+             Download CV </button></a>  
+             <div className="blur s-blur" style={{background:"#ABF1FF94"}}></div>
         </div>
 
         {/* right side */}
@@ -48,6 +49,7 @@ const Services = () => {
           detail={"Lorem ispum dummy text are usually usein section where we need some random text"}
          />
         </div>
+        <div className="blur s-blur2" style={{ background: "var(--purple)"}} ></div>
 
         </div>
 

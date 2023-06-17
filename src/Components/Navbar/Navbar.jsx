@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className="n-wrapper">
         <div className="n-left">
             <div className="n-name">Bhoomika</div>
-            <span>toogle</span>
+            {/* <span>toogle</span> */}
         </div>
         <div className="n-right">
             <div className="n-list">
@@ -26,5 +26,5 @@ export const Navbar = () => {
     
   )
 }
-
+export default Navbar;
 

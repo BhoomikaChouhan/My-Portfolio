@@ -38,19 +38,19 @@ export const Intro = () => {
         <img src={glassesemoji} alt="" />
         {/* <img src={Pic} alt="" /> */}
         <div hidden style={{top: '-8%',left: '55%' }}>
-          <FloatingDiv image={Crown} txt1='Web' txt2='Developer' />
+          <FloatingDiv  image={Crown} txt1='Web' txt2='Developer' />
         </div>
         <div  style={{top: '-8%',left: '55%' }}>
-          <FloatingDiv image={Crown} txt1='Web' txt2='Developer' />
+          <FloatingDiv className="floating-div" image={Crown} txt1='Web' txt2='Developer' />
         </div>
 
-        <div style={{top: '18rem',left: '0rem' }}>
-          <FloatingDiv image={thumbup} txt1='Java' txt2='Programmer' />
+        <div  style={{top: '18rem',left: '0rem' }}>
+          <FloatingDiv className="floating-div" image={thumbup} txt1='Java' txt2='Programmer' />
         </div>
         
       </div>
 {/* blur divs */}
-<div className="blur" style={{background:"rgb(238 210 255)"}} ></div>
+{/* <div className="blur" style={{background:"rgb(238 210 255)"}} ></div>
 <div className="blur"
 style={{
   background: '#C1F5FF',
@@ -58,7 +58,8 @@ style={{
   width:'21rem',
   height:'11rem',
   left:'21rem'
-}} ></div>
+}} ></div> */}
     </div>
   );
 };
+export default Intro;

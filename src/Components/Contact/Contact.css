@@ -39,3 +39,14 @@ textarea{
     left: 8rem;
 }
 
+@media screen and (max-width:480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 14rem!important;
+    }
+}

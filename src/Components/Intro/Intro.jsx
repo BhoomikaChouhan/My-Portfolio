@@ -13,7 +13,7 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv";
 
 export const Intro = () => {
   return (
-    <div className="intro">
+    <div className="intro" id="intro">
       <div className="i-left">
         <div className="i-name">
           <span>Hy! I am</span>
@@ -27,9 +27,9 @@ export const Intro = () => {
         <button className="button i-button">Hire me</button>
 
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={Linkedin} alt="" />
-          <img src={Instagram} alt="" />
+        <a href="https://github.com/BhoomikaChouhan">  <img src={Github} alt="" /> </a>
+        <a href="https://github.com/BhoomikaChouhan">  <img src={Linkedin} alt="" /></a>
+        <a href="">  <img src={Instagram} alt="" /></a>
         </div>
       </div>
       <div className="i-right">

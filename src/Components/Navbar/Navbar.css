@@ -50,6 +50,8 @@
   transition: 0.3s ease-in-out;
 }
 
+.n-button:hover a{
+  color: var(--orange) !important; }
 @media screen and (max-width: 480px){
   .n-list{
     display: none;
@@ -58,8 +60,4 @@
     display: none;
   }
 }
-
-
-
-
 

@@ -8,12 +8,12 @@ import Card from '../Card/Card';
 import Resume from './Resume.pdf'
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id='Services'>
 
         {/* left side */}
         <div className="awesome">
-         <span>My Awesome</span>
-         <span>services</span>
+         <span>My Technical</span>
+         <span>Skills</span>
          <span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio facere quam laborum, 
             <br />
@@ -28,16 +28,16 @@ const Services = () => {
         <div style={{left: '14rem'}} >
           <Card
           emoji={HeartEmoji}
-          heading = {'Design'}
-          detail = {"Figma,Photoshop lorem lorem lorem lorem"}
+          heading = {'Web Development'}
+          detail = {"Html, CSS, JS, Bootstrap, React.js, MySql"}
           />
         </div>
         {/* 2nd card */}
         <div style={{top:"12rem",left:"-4rem"}} >
          <Card
           emoji={Glasses}
-          heading={"Developer"}
-          detail={"Html, Css, javascript, React"}
+          heading={"Java Development"}
+          detail={"Java, JSP Pages,Java Servlets"}
          />
         </div>
 
@@ -45,8 +45,8 @@ const Services = () => {
          <div style={{top:"19rem",left:"12rem"}} >
          <Card
           emoji={Humble}
-          heading={"UI/UX"}
-          detail={"Lorem ispum dummy text are usually usein section where we need some random text"}
+          heading={"Programming languages"}
+          detail={"Java, C++, C, PHP"}
          />
         </div>
         <div className="blur s-blur2" style={{ background: "var(--purple)"}} ></div>

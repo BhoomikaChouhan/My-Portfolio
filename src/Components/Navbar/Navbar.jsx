@@ -10,16 +10,15 @@ export const Navbar = () => {
         </div>
         <div className="n-right">
             <div className="n-list">
-                <ul style={ {listStyleType: 'none'} } >
-                    <li>Home </li>
-                    <li>Services</li>
-                    <li>Experience</li>
-                    <li>Portfolio</li>
-                    <li>Testimonials</li>
+                <ul style={ {listStyleType: 'none', color: "#242849"} } >
+                  <a style={{textDecoration: "none", color: "#242849"}} href='#intro'>  <li>Home </li></a>
+                  <a  style={{textDecoration: "none", color: "#242849"}} href='#Services'>  <li>Skills</li> </a>
+                  <a  style={{textDecoration: "none", color: "#242849"}} href='#Projects'>  <li>Portfolio</li></a>
+                  <a  style={{textDecoration: "none", color: "#242849"}} href='#testimonial'>  <li>Testimonials</li></a>
                 </ul>
             </div>
             <button className="button n-button">
-                Contact us
+              <a  style={{textDecoration: "none", color: "white"}} id='aa' href='#contact'>  Contact us</a>
             </button>
         </div>
     </div>

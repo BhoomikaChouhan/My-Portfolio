@@ -19,8 +19,8 @@ export const Intro = () => {
           <span>Hy! I am</span>
           <span>Bhoomika Chouhan</span>
           <span>
-            Frontend Developer with high level of efficient skills in web
-            designing and development, producing the Quality work
+            Aspiring Devops Engineer with efficient skills in Devops and knows 
+            basic development, producing the Quality work
           </span>
         </div>
 
@@ -41,7 +41,7 @@ export const Intro = () => {
           <FloatingDiv  image={Crown} txt1='Web' txt2='Developer' />
         </div>
         <div  style={{top: '-8%',left: '55%' }}>
-          <FloatingDiv className="floating-div" image={Crown} txt1='Web' txt2='Developer' />
+          <FloatingDiv className="floating-div" image={Crown} txt1='Devops' txt2='Engineer' />
         </div>
 
         <div  style={{top: '18rem',left: '0rem' }}>

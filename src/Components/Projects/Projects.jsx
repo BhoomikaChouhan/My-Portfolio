@@ -23,7 +23,7 @@ export const Projects = () => {
         >
             <SwiperSlide
             >
-               <img src={Codetranslator} alt="" /></SwiperSlide>
+               <img src={Codetranslator} alt="" />
             </SwiperSlide>
             <SwiperSlide>
                 <img src={Hotel} alt="" />

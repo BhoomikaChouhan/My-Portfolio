@@ -23,7 +23,7 @@ export const Projects = () => {
         >
             <SwiperSlide
             >
-                <img src={Codetranslator} alt="" />
+               <a href="https://SyntaxSwitch.vercel.app/"> <img src={Codetranslator} alt="" /></a></SwiperSlide>
             </SwiperSlide>
             <SwiperSlide>
                 <img src={Hotel} alt="" />
